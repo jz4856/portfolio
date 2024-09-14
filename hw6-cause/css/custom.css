@@ -1,0 +1,130 @@
+@font-face {
+    font-family: Bold;
+    src: url('../fonts/the_bold_font/THE\ BOLD\ FONT\ -\ FREE\ VERSION\ -\ 2023.ttf');
+}
+
+@font-face {
+    font-family: Lato Bold;
+    src: url('../fonts/Lato/Lato-Bold.ttf');
+}
+
+@font-face {
+    font-family: Lato;
+    src: url('../fonts/Lato/Lato-Regular.ttf');
+}
+
+.noPadding{
+    padding : 0px;
+}
+
+header{
+    color: #FFF5EC;
+}
+
+.navbar .container-fluid{
+    background-color: #023f02 !important;
+}
+
+.navbar{
+    background-color: #023f02 !important;
+}
+
+.navbar-brand{
+    color: #FFF5EC;
+    font-family: Bold;
+    letter-spacing: 2px;
+}
+
+.nav-link{
+    color: #FFF5EC;
+    font-family: Lato Bold;
+}
+
+.navbar-toggler{
+   background-color: #FFF5EC;
+}
+
+h1, h2, h5, .btn{
+    font-family: Lato Bold;
+}
+
+p{
+    font-family: Lato;
+}
+
+.container-fluid{
+   background-color: #FFF5EC;
+}
+
+#mainArea{
+    min-height:50vh;
+    padding: 30px;
+}
+
+.donationAmount{
+    width : 80%;
+    margin : 20px;
+    padding : 15px;
+}
+
+.card{
+    background-color: #B99470;
+    color: #FFF5EC;
+}
+
+.marginTop{
+    padding-top: 60px;
+}
+
+.marginTopSmall{
+    padding-top: 30px;
+}
+
+.marginLeft{
+    padding-left: 60px;
+}
+
+.marginRight{
+    padding-right: 60px;
+}
+
+.marginBottom{
+    padding-bottom: 60px;
+}
+
+footer{
+    min-height : 50vh;
+    background-color: #502e15;
+    color: #FFF5EC;
+}
+
+footer ul{
+    list-style: none;
+    margin : 0px;
+    margin : 0px;
+}
+
+footer ul li{
+    margin : 20px;
+}
+
+footer i{
+    font-size : 20pt;
+    margin : 10px;
+}
+
+/* Media query for narrow browser width*/
+@media only screen and (max-width: 480px){
+    .jumbotron{
+        padding : 30px !important;
+    }
+    footer{
+        padding : 20px;
+        padding-top: 30px !important;
+        height: 55vh !important;
+    }
+    .footerVolunteer, .footerNav{
+        display : none !important;
+    }
+
+}
